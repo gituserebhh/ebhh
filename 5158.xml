@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Security-Auditing' Guid='{54849625-5478-4994-A5BA-3E3B0328C30D}'/><EventID>5158</EventID><Version>0</Version><Level>0</Level><Task>12810</Task><Opcode>0</Opcode><Keywords>0x8020000000000000</Keywords><TimeCreated SystemTime='2024-07-13T19:38:26.215290400Z'/><EventRecordID>70171923</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='10364'/><Channel>Security</Channel><Computer>LABFORTEMP</Computer><Security/></System><EventData><Data Name='ProcessId'>8876</Data><Data Name='Application'>\device\harddiskvolume2\program files (x86)\google\chrome\application\chrome.exe</Data><Data Name='SourceAddress'>0.0.0.0</Data><Data Name='SourcePort'>59572</Data><Data Name='Protocol'>17</Data><Data Name='FilterRTID'>0</Data><Data Name='LayerName'>%%14608</Data><Data Name='LayerRTID'>36</Data></EventData><RenderingInfo Culture='es-ES'><Message>La Plataforma de filtrado de Windows permitió un enlace con un puerto local.
+
+Información de aplicación:
+	Id. de proceso:		8876
+	Nombre de aplicación:	\device\harddiskvolume2\program files (x86)\google\chrome\application\chrome.exe
+
+Información de red:
+	Dirección de origen:		0.0.0.0
+	Puerto de origen:		59572
+	Protocolo:		17
+
+Información de filtro:
+	Id. de tiempo de ejecución de filtro:	0
+	Nombre de nivel:		Asignación de recursos
+	Id. de tiempo de ejecución de nivel:	36</Message><Level>Información</Level><Task>Conexión de Plataforma de filtrado</Task><Opcode>Información</Opcode><Channel>Seguridad</Channel><Provider>Microsoft Windows security auditing.</Provider><Keywords><Keyword>Auditoría correcta</Keyword></Keywords></RenderingInfo></Event></Events>
